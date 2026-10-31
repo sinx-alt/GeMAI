@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# GeMAI: local data that must never be committed
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+backend/uploads/
